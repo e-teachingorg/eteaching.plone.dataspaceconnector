@@ -29,7 +29,7 @@ eggs +=
     eteaching.plone.dataspaceconnector
 
 [sources]
-eteaching.mbr.dataroom = git https://github.com/e-teachingorg/eteaching.plone.dataspaceconnector.git
+eteaching.plone.dataspaceconnector = git https://github.com/e-teachingorg/eteaching.plone.dataspaceconnector.git
 ```
 
 and then running ``bin/buildout``
