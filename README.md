@@ -1,5 +1,5 @@
 
-# eteaching.mbr.dataroom
+# eteaching.plone.dataspaceconnector
 
 Add on to connect the data room of MeinBildungsraum to Plone
 
@@ -29,7 +29,7 @@ eggs +=
     eteaching.mbr.dataroom
 
 [sources]
-eteaching.mbr.dataroom = git https://github.com/e-teachingorg/eteaching.mbr.dataroom.git
+eteaching.mbr.dataroom = git https://github.com/e-teachingorg/eteaching.plone.dataspaceconnector.git
 ```
 
 and then running ``bin/buildout``
@@ -42,8 +42,8 @@ Markus Schmidt
 
 ## Contribute
 
-- Issue Tracker: https://github.com/e-teachingorg/eteaching.mbr.dataroom/issues
-- Source Code: https://github.com/e-teachingorg/eteaching.mbr.dataroom
+- Issue Tracker: https://github.com/e-teachingorg/eteaching.plone.dataspaceconnector/issues
+- Source Code: https://github.com/e-teachingorg/eteaching.plone.dataspaceconnector
 
 ## Support
 
