@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="eteaching.plone.dataspaceconnector">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="eteaching.plone.dataspaceconnector.interfaces.IEteachingPloneDataspaceconnectorLayer"
+      />
+
+  <!-- Publish static files -->
+  <plone:static
+      name="eteaching.plone.dataspaceconnector"
+      type="plone"
+      directory="static"
+      />
+
+</configure>
