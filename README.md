@@ -1,7 +1,7 @@
 
 # eteaching.plone.dataspaceconnector
 
-Add on to connect the data room of MeinBildungsraum to Plone
+Plone add-on to connect Plone 6 to the data space of MeinBildungsraum
 
 ## Features
 
