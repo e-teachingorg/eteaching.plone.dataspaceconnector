@@ -5,9 +5,9 @@ Plone add-on to connect Plone 6 to the data space of MeinBildungsraum
 
 ## Features
 
-- Realizes a connection to the MeinBildungsraum (MBR) data room
+- Realizes a connection to the MeinBildungsraum (MBR) data space
 - Can provide metadata with the AMB metadata schema
-- Can create, delete and rebuild MBR nodes of all content of a plone database in the data room
+- Can create, delete and rebuild MBR nodes of all content of a plone database in the data space
 - Can create, delete and update MBR nodes at runtime
 
 ##  Installation
