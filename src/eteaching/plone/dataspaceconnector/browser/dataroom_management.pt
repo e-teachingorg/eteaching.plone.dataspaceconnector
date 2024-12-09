@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="context/prefs_main_template/macros/master"
+      i18n:domain="eteaching.plone.dataspaceconnector">
+
+<body>
+
+	<metal:main metal:fill-slot="prefs_configlet_main" i18n:domain="eteaching.plone.dataspaceconnector">
+
+		<h1 i18n:translate="">Manage data room</h1>
+
+		<p class="lead" i18n:translate="">
+			Here you can create, delete and rebuild all MBR nodes.
+		</p>
+	
+		<form>
+			<span i18n:translate="">Create all nodes</span>
+			<div>								
+				<input name="create" type="hidden" value="create">									
+			</div>
+			<button type="submit" class="btn btn-primary my-3" i18n:translate="">
+				Create
+			</button>
+		</form>
+
+		<form>
+			<span i18n:translate="">Delete all nodes</span>
+			<div>								
+				<input name="delete" type="hidden" value="delete">									
+			</div>
+			<button type="submit" class="btn btn-primary my-3" i18n:translate="">
+				Delete
+			</button>
+		</form>
+
+		<form>
+			<span i18n:translate="">Rebuild all nodes</span>
+			<div>								
+				<input name="rebuild" type="hidden" value="rebuild">									
+			</div>
+			<button type="submit" class="btn btn-primary my-3" i18n:translate="">
+				Rebuild
+			</button>
+		</form>
+
+</metal:main>
+
+</body>
+
+</html>				
+						

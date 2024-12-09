@@ -18,4 +18,13 @@
       directory="static"
       />
 
+	<!-- CONTROLPANEL -->
+	<browser:page
+	    name="dataroom-management"
+	    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+	    class=".controlpanel.DataroomMangementControlpanel"
+	    template="dataroom_management.pt"
+	    permission="cmf.ManagePortal"
+	    />
+
 </configure>

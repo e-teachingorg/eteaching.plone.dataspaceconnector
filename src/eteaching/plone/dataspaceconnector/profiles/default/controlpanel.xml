@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<object
+    name="portal_controlpanel"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="eteaching.plone.dataspaceconnector"
+    purge="False">
+
+    <configlet
+        title="MBR DataRoom management"
+        action_id="dataroom-management"
+        appId="dataroom-management"
+        category="Products"
+        condition_expr=""
+        url_expr="string:${portal_url}/@@dataroom-management"
+        icon_expr="string:database-up"
+        visible="True"
+        i18n:attributes="title">
+            <permission>Manage portal</permission>
+    </configlet>
+
+</object>
