@@ -22,11 +22,11 @@ parts +=
     instance
 
 auto-checkout +=
-    eteaching.mbr.dataroom
+    eteaching.plone.dataspaceconnector
 
 [instance]
 eggs +=
-    eteaching.mbr.dataroom
+    eteaching.plone.dataspaceconnector
 
 [sources]
 eteaching.mbr.dataroom = git https://github.com/e-teachingorg/eteaching.plone.dataspaceconnector.git
