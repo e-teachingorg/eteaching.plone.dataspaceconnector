@@ -1,9 +1,9 @@
 
 # eteaching.plone.dataspaceconnector
 
-Plone add-on to connect Plone 6 to the data space of MeinBildungsraum.
+[Plone](https://plone.org/) add-on to connect Plone 6 to the data space of MeinBildungsraum.
 
-eteaching.plone.dataspaceconnector synchronizes the metadata of all CMS documents with the MeinBildungsraum data space. This is done on the basis of subscribers. Every time content is created, updated, or deleted in the CMS, the metadata is synchronized with the MeinBildungsraum data space on the basis of the [AMB](https://dini-ag-kim.github.io/amb/latest/). In addition, a function is provided that initially synchronizes, deletes, or recreates all metadata in the data space.
+eteaching.plone.dataspaceconnector synchronizes the metadata of all Plone documents with the [MeinBildungsraum](https://www.meinbildungsraum.de/) data space. This is done on the basis of subscribers. Every time content is created, updated, or deleted in the CMS, the metadata is synchronized with the MeinBildungsraum data space nodes on the basis of the [AMB](https://dini-ag-kim.github.io/amb/latest/). In addition, a function is provided that initially synchronizes, deletes, or recreates all nodes in the data space.
 
 ## Features
 
@@ -13,13 +13,13 @@ eteaching.plone.dataspaceconnector synchronizes the metadata of all CMS document
 - Can create, delete and update MBR nodes at runtime
 
 ## Prerequisites
-* Plone 6.1 (Classic UI), Plone 6.0 (Classic UI)
-* Python3 3.10, 3.12, 3.13 (Plone 6.1), 3.8, 3.9, 3.10, 3.11 (Plone 6.0)
-* Python3 venv module
+
+* Plone 6.1 (Classic UI), Plone 6.0 should also work
+* Python 3.10, 3.12, 3.13
 * Git
 * Valid dataroom credentials (MeinBildungsraum)
 
-## Install with Plone buildout (Plone 6.1)
+## Install with Plone buildout
 
 ```bash
 git clone https://github.com/e-teachingorg/eteaching.plone.dataspaceconnector.git
