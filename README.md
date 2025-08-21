@@ -1,7 +1,7 @@
 
 # eteaching.plone.dataspaceconnector
 
-MeinBildungsraum data room integration for Plone
+MeinBildungsraum data room integration for Plone.
 
 eteaching.plone.dataspaceconnector synchronises the metadata of all [Plone](https://plone.org/) documents with the [MeinBildungsraum](https://www.meinbildungsraum.de/) data space. This is done on the basis of [subscribers](https://6.docs.plone.org/backend/subscribers.html) (event handlers). Whenever content is created, updated or deleted in the CMS, the metadata is synchronised with MeinBildungsraum data space nodes based on [AMB](https://dini-ag-kim.github.io/amb/latest/). In addition, a control panel is provided for creating, deleting or recreating all nodes.
 
