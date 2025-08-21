@@ -3,7 +3,7 @@
 
 [Plone](https://plone.org/) add-on to connect Plone 6 to the data space of [MeinBildungsraum](https://www.meinbildungsraum.de/).
 
-eteaching.plone.dataspaceconnector synchronizes the metadata of all Plone documents with the MeinBildungsraum data space. This is done on the basis of subscribers. Every time content is created, updated, or deleted in the CMS, the metadata is synchronized with the MeinBildungsraum data space nodes on the basis of the [AMB](https://dini-ag-kim.github.io/amb/latest/). In addition, a function is provided that initially synchronizes, deletes, or recreates all nodes in the data space.
+eteaching.plone.dataspaceconnector synchronises the metadata of all Plone documents with the MeinBildungsraum data space. This is done on the basis of subscribers. Whenever content is created, updated or deleted in the CMS, the metadata is synchronised with MeinBildungsraum data space nodes based on AMB. Additionally, there is a function that initially synchronises, deletes or recreates all nodes in the data space.
 
 ## Features
 
